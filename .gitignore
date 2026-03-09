@@ -205,3 +205,90 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# =========================
+# ROS2 / colcon
+# =========================
+install/
+log/
+build/
+
+# colcon / ament / cmake extras
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# ROS bag files
+*.db3
+*.mcap
+
+# =========================
+# YOLO / ML
+# =========================
+runs/
+wandb/
+mlruns/
+tensorboard/
+events.out.tfevents.*
+
+# model weights / checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+
+# dataset / cache
+datasets/
+data/
+labels/
+cache/
+*.cache
+
+# 필요하면 yaml은 유지
+!data.yaml
+!*.yaml
+!*.yml
+
+# =========================
+# Isaac Sim / Omniverse
+# =========================
+*.kitlog
+*.usd.lock
+*.usda.tmp
+*.usd.tmp
+omniverse.log
+
+# temp / cache
+tmp/
+temp/
+.cache/
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# archives / large files
+# =========================
+*.zip
+*.7z
+*.tar
+*.gz
+
+# =========================
+# media outputs
+# =========================
+*.mp4
+*.avi
+*.mov
